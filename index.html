@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de compras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="add__task">
+    <input type="text" id="texto-tarea">
+    <select name="" id="prioridad-tarea">
+      <option value="alta">Alta</option>
+      <option value="media">Media</option>
+      <option value="baja">Baja</option>
+    </select>
+    <button class="btn" id="agregar-tarea">Agregar</button>
+  </div>
+  <article class="tasks">
+    <header>
+      
+      <h1 class="tasks__title"><span class="tasks__title--top">Mi lista</span><span class="tasks__title--bottom">Que
+        hacer</span></h1>
+      </header>
+      <div class="btn__container">
+        <button class="btn full" id="ordernar-tareas">Ordenar alfabéticamente</button>
+      </div>
+    <main class="tasks__taskslist" id="lista-tareas">
+
+    </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
